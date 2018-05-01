@@ -30,3 +30,9 @@ What is the result of merging two branches together? Why do we represent it in t
 - The master branch will be able to reach all the previous commits from BOTH branches
 - The label for the subsumed branch can be deleted with 'git branch -d <branch_name>'
 - The git log will show commits from both branches combined in order of timestamp
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+- Git merges automatically where it is obvious to do so, and is overly cautious where there could be conflict
+- This may sometimes seem annoying, but is far better than the alternative, which would probably break your code a lot
+- Resolving conflicts by going back into the code or consulting with your colleague ain't such a big price to pay
