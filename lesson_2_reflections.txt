@@ -24,3 +24,9 @@ How do the diagrams help you visualize the branch structure?
 
 - Diagrams easily remind us what is reachable from where, and what our commits will be affecting
 
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+- The master branch will have all features / fixes from both branches
+- The master branch will be able to reach all the previous commits from BOTH branches
+- The label for the subsumed branch can be deleted with 'git branch -d <branch_name>'
+- The git log will show commits from both branches combined in order of timestamp
