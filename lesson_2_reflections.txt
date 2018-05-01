@@ -3,3 +3,8 @@ What happens when you initialize a repository? Why do you need to do it?
 - Using 'git init' to initialize a repo adds a hidden .git file to the directory
 - The 'git init' command also starts Git 'listening' to any changes made to files in this repo
 - To see hidden files, use the '-a' flag, e.g. 'ls -a' will list all files / dirs in current dir
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+- The staging area allows us to choose which files to commit
+- This is particularly useful when initializing a repo which already has files in it
