@@ -19,3 +19,8 @@ What are some situations when branches would be helpful in keeping your history 
 - Other versions of the same application might live on different branches, eg. another language or
 an easier version of the same game
 - Branches allow us to use version control on these experiments without affecting the working app
+
+How do the diagrams help you visualize the branch structure?
+
+- Diagrams easily remind us what is reachable from where, and what our commits will be affecting
+
