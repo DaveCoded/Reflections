@@ -1,0 +1,5 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+- Using 'git init' to initialize a repo adds a hidden .git file to the directory
+- The 'git init' command also starts Git 'listening' to any changes made to files in this repo
+- To see hidden files, use the '-a' flag, e.g. 'ls -a' will list all files / dirs in current dir

@@ -1,0 +1,44 @@
+Using diff to compare two files
+
+- Use the Git Bash command prompt to use ubuntu / bash style command prompts instead of PowerShell
+- The command 'diff' followed by two file names, eg. 'diff game_old.js game_new.js' will show you any differences
+- This could potentially save a lot of time scouring longer files with many lines of code for a small typo
+- To launch VSCode from Git Bash, type 'code .'
+- 'clear' will clear the terminal
+
+How could having easy access to the entire history of a file
+make you a more efficient programmer in the long term?
+
+- Easier to see changes made by collaborators and get up to speed
+- If there is a change in plan for an app, it might be useful to revert
+
+What do you think are the pros and cons of manually choosing when to create a commit,
+like you do in Git, vs having versions automatically saved, like Google Docs does?
+
+- With no autosave, it might be easy to forget and make overly large commits
+- Manually committing makes you break up a project in your mind
+- Manual commits are much more meaningful
+- Manual commits can be described usefully with messages
+
+Why do you think some version control systems, like Git, allow saving multiple files in one commit,
+while others, like Google Docs, treat each file separately?
+
+- Files of code are often related to or included in one another
+
+How can you use the commands git log and git diff to view the history of files?
+
+- 'git log' will give a list of commits, complete with IDs, timestamps, author and message
+- Using 'git diff' followed by two IDs will compare the code in those two commits
+- Use the down arrow to scroll through the log or the comparison
+- Use the 'q' key to exit the log or comparison
+
+How might using version control make you more confident to make changes that could break something?
+
+- The 'detatched head' state allows you to make changes to earlier versions without committing them
+to the master branch. Hence, you can play around as much as you like without breaking anything!
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+- I'd like to make a repository for my JS30 files
+- I'd like to make a repository for the Natours project!
+- How about playing around with the functionality of the Patatap clone?
