@@ -1,0 +1,4 @@
+When would you want to use a remote repository rather than keeping all your work local?
+
+- Collaboration, open source, sharing with colleagues etc.
+- Showcasing your work to potential employers
